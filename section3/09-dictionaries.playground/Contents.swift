@@ -61,3 +61,18 @@ animals["Guinea Pig"] = "Cute Little Rodent"
 for (animal, animalDescription) in animals {
     print("Animal: \(animal) -- Description: \(animalDescription)")
 }
+
+animals = [:] // clearing things out!
+
+animals["USA"] = "United States" // this ain't no state! and it isn't an animal!
+animals["CA"] = "California"
+
+for (abbreviation, fullName) in animals {
+    print("\(fullName) : \(abbreviation)")
+}
+
+animals["USA"] = nil // getting removed now
+
+for (abbreviation, fullName) in animals {
+    print("\(fullName) : \(abbreviation)")
+} // the USA is gone
