@@ -12,6 +12,9 @@
 		5AF3466025335F8F00029543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF3465F25335F8F00029543 /* Assets.xcassets */; };
 		5AF3466325335F8F00029543 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF3466225335F8F00029543 /* Preview Assets.xcassets */; };
 		5AF3466F2533649300029543 /* AppleProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3466E2533649300029543 /* AppleProduct.swift */; };
+		5AF3467325339D7900029543 /* CustomPrettyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3467225339D7900029543 /* CustomPrettyView.swift */; };
+		5AF3467625339DC600029543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF3467525339DC600029543 /* Main.storyboard */; };
+		5AF3467925339DF900029543 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3467825339DF900029543 /* Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		5AF3466225335F8F00029543 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5AF3466425335F8F00029543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AF3466E2533649300029543 /* AppleProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProduct.swift; sourceTree = "<group>"; };
+		5AF3467225339D7900029543 /* CustomPrettyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPrettyView.swift; sourceTree = "<group>"; };
+		5AF3467525339DC600029543 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5AF3467825339DF900029543 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 				5AF3466C253362C500029543 /* View */,
 				5AF3466B253362A900029543 /* Controller */,
 				5AF3465B25335F8D00029543 /* mvcifymeApp.swift */,
+				5AF3467525339DC600029543 /* Main.storyboard */,
 				5AF3465D25335F8D00029543 /* ContentView.swift */,
 				5AF3465F25335F8F00029543 /* Assets.xcassets */,
 				5AF3466425335F8F00029543 /* Info.plist */,
@@ -77,6 +84,7 @@
 		5AF3466B253362A900029543 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5AF3467825339DF900029543 /* Controller.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -84,6 +92,7 @@
 		5AF3466C253362C500029543 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5AF3467225339D7900029543 /* CustomPrettyView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -153,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF3467625339DC600029543 /* Main.storyboard in Resources */,
 				5AF3466325335F8F00029543 /* Preview Assets.xcassets in Resources */,
 				5AF3466025335F8F00029543 /* Assets.xcassets in Resources */,
 			);
@@ -165,9 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF3467925339DF900029543 /* Controller.swift in Sources */,
 				5AF3466F2533649300029543 /* AppleProduct.swift in Sources */,
 				5AF3465E25335F8D00029543 /* ContentView.swift in Sources */,
 				5AF3465C25335F8D00029543 /* mvcifymeApp.swift in Sources */,
+				5AF3467325339D7900029543 /* CustomPrettyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
