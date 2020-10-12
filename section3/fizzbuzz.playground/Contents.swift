@@ -36,11 +36,11 @@ print(planets.last!)
 //let profile = "\(firstName)\(lastName)\(age)"
 //let average = Int(10.3 + 4.0) / 2
 
-var sum = 0
-for i in 0...20 {
-    sum += 1
-}
-print(sum)
+//var sum = 0
+//for i in 0...20 {
+//    sum += 1
+//}
+//print(sum)
 
 var nicknames = ["jax" : "James"]
 nicknames["spike"] = "Tom"
@@ -82,4 +82,26 @@ firstName = "Jan"
 if let first = firstName, let last = lastName {
     fullName = "\(first) \(last)"
 }
+//
+//struct Person {
+//    var name: String
+//    var age: Int
+//}
+//let john = Person(name: "John", age: 21)
+//var steven = john
+//steven.name = "Steven"
+//print(john.name)
+
+class Person {
+    var name: String
+    var age: Int
+    init(name: String, age: Int) {
+        self.name = name
+        self.age = age
+    }
+}
+let john = Person(name: "John", age: 21)
+var steven = john
+steven.name = "Steven"
+print(john.name)
 
